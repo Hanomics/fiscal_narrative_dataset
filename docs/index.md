@@ -1,3 +1,11 @@
+<nav style="margin-bottom:1rem;">
+  <a href="./index.html">Home</a> ·
+  <a href="./methods.html">Methods</a> ·
+  <a href="./variables.html">Variables</a> ·
+  <a href="./releases.html">Releases</a> ·
+  <a href="./faq.html">FAQ</a>
+</nav>
+
 # Fiscal Consolidation Narrative Shocks (SSA)
 
 Welcome to the documentation site for the **Fiscal Consolidation Narrative Shocks** dataset for Sub‑Saharan Africa.  This site provides an overview of the dataset, explains the methodology, lists the variables, and describes the country coverage.
