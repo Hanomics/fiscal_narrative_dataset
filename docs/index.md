@@ -34,10 +34,10 @@ The initial release covers 14 countries from 1990 onwards.  The table below summ
 
 ## Data access
 
-You can download the latest version of the dataset in CSV and Stata formats from the [GitHub repository](https://github.com/yourusername/fiscal-consolidation-ssa).  For example, to load the CSV in R you can run:
+You can download the latest version of the dataset in CSV and Stata formats from the [GitHub repository](https://github.com/hanomics/fiscal_narrative_dataset).  For example, to load the CSV in R you can run:
 
 ```r
-url <- "https://raw.githubusercontent.com/yourusername/fiscal-consolidation-ssa/main/data/current/narrative_shocks.csv"
+url <- "https://raw.githubusercontent.com/hanomics/fiscal_narrative_dataset/main/data/current/narrative_shocks.csv"
 df  <- read.csv(url)
 ```
 
