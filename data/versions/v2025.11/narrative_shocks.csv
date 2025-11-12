@@ -1,0 +1,596 @@
+country,iso3,year,tax,spend,total
+Angola,AGO,1990,0.0,0.0,0.0
+Angola,AGO,1991,0.0,0.0,0.0
+Angola,AGO,1992,0.0,0.0,0.0
+Angola,AGO,1993,0.0,0.0,0.0
+Angola,AGO,1994,0.0,0.0,0.0
+Angola,AGO,1995,0.0,0.0,0.0
+Angola,AGO,1996,0.0,0.0,0.0
+Angola,AGO,1997,0.0,0.0,0.0
+Angola,AGO,1998,0.0,0.0,0.0
+Angola,AGO,1999,0.0,0.0,0.0
+Angola,AGO,2000,0.0,0.0,0.0
+Angola,AGO,2001,0.0,0.0,0.0
+Angola,AGO,2002,0.0,0.0,0.0
+Angola,AGO,2003,0.0,0.0,0.0
+Angola,AGO,2004,0.0,0.0,0.0
+Angola,AGO,2005,0.0,0.0,0.0
+Angola,AGO,2006,0.0,0.0,0.0
+Angola,AGO,2007,0.0,0.0,0.0
+Angola,AGO,2008,0.0,0.0,0.0
+Angola,AGO,2009,0.0,0.0,0.0
+Angola,AGO,2010,0.0,0.0,0.0
+Angola,AGO,2011,0.0,0.0,0.0
+Angola,AGO,2012,0.0,0.0,0.0
+Angola,AGO,2013,0.0,0.0,0.0
+Angola,AGO,2014,0.0,0.0,0.0
+Angola,AGO,2015,0.0,0.0,0.0
+Angola,AGO,2016,0.0,0.0,0.0
+Angola,AGO,2017,0.0,0.0,0.0
+Angola,AGO,2018,0.0,0.0,0.0
+Angola,AGO,2019,0.0,0.0,0.0
+Angola,AGO,2020,0.0,0.0,0.0
+Angola,AGO,2021,0.0,0.0,0.0
+Angola,AGO,2022,0.0,0.0,0.0
+Angola,AGO,2023,0.0,0.0,0.0
+Angola,AGO,2024,0.0,0.0,0.0
+Botswana,BWA,1990,0.0,0.0,0.0
+Botswana,BWA,1991,0.0,0.0,0.0
+Botswana,BWA,1992,0.0,0.0,0.0
+Botswana,BWA,1993,0.0,0.0,0.0
+Botswana,BWA,1994,0.0,0.0,0.0
+Botswana,BWA,1995,,,
+Botswana,BWA,1996,,,
+Botswana,BWA,1997,0.0,0.0,0.0
+Botswana,BWA,1998,0.0,0.0,0.0
+Botswana,BWA,1999,0.0,0.0,0.0
+Botswana,BWA,2000,,,
+Botswana,BWA,2001,0.0,0.0,0.0
+Botswana,BWA,2002,0.0,0.0,0.0
+Botswana,BWA,2003,0.0,0.0,0.0
+Botswana,BWA,2004,0.0,0.0,0.0
+Botswana,BWA,2005,0.0,0.0,0.0
+Botswana,BWA,2006,0.0,0.0,0.0
+Botswana,BWA,2007,0.0,0.0,0.0
+Botswana,BWA,2008,0.0,0.0,0.0
+Botswana,BWA,2009,0.0,0.0,0.0
+Botswana,BWA,2010,0.0,2.8,2.8
+Botswana,BWA,2011,0.0,3.3,3.3
+Botswana,BWA,2012,0.0,0.8,0.8
+Botswana,BWA,2013,0.0,0.0,0.0
+Botswana,BWA,2014,0.0,0.0,0.0
+Botswana,BWA,2015,0.0,0.0,0.0
+Botswana,BWA,2016,0.0,0.0,0.0
+Botswana,BWA,2017,0.0,0.0,0.0
+Botswana,BWA,2018,0.0,0.0,0.0
+Botswana,BWA,2019,0.0,0.0,0.0
+Botswana,BWA,2020,0.0,0.0,0.0
+Botswana,BWA,2021,0.75,2.5,3.25
+Botswana,BWA,2022,0.25,2.8,3.05
+Botswana,BWA,2023,0.0,0.0,0.0
+Botswana,BWA,2024,0.0,0.0,0.0
+Côte d'Ivoire,CIV,1990,0.0,0.0,0.0
+Côte d'Ivoire,CIV,1991,0.0,0.0,0.0
+Côte d'Ivoire,CIV,1992,0.0,0.0,0.0
+Côte d'Ivoire,CIV,1993,0.0,0.0,0.0
+Côte d'Ivoire,CIV,1994,3.1,2.0,5.1
+Côte d'Ivoire,CIV,1995,0.0,0.7,0.7
+Côte d'Ivoire,CIV,1996,0.0,0.0,0.0
+Côte d'Ivoire,CIV,1997,0.0,0.0,0.0
+Côte d'Ivoire,CIV,1998,0.0,0.0,0.0
+Côte d'Ivoire,CIV,1999,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2000,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2001,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2002,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2003,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2004,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2005,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2006,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2007,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2008,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2009,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2010,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2011,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2012,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2013,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2014,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2015,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2016,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2017,0.0,0.8,0.8
+Côte d'Ivoire,CIV,2018,0.3,0.0,0.3
+Côte d'Ivoire,CIV,2019,0.3,0.4,0.7
+Côte d'Ivoire,CIV,2020,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2021,0.8,0.0,0.8
+Côte d'Ivoire,CIV,2022,0.0,0.0,0.0
+Côte d'Ivoire,CIV,2023,1.1,0.0,1.1
+Côte d'Ivoire,CIV,2024,0.8,0.7,1.5
+Cameroon,CMR,1990,0.0,0.0,0.0
+Cameroon,CMR,1991,0.65,0.125,0.775
+Cameroon,CMR,1992,0.65,0.125,0.775
+Cameroon,CMR,1993,0.0,0.0,0.0
+Cameroon,CMR,1994,0.4,1.3,1.7000000000000002
+Cameroon,CMR,1995,1.65,1.55,3.2
+Cameroon,CMR,1996,1.25,0.25,1.5
+Cameroon,CMR,1997,0.0,0.0,0.0
+Cameroon,CMR,1998,0.0,0.0,0.0
+Cameroon,CMR,1999,0.0,0.0,0.0
+Cameroon,CMR,2000,0.0,0.0,0.0
+Cameroon,CMR,2001,0.0,0.0,0.0
+Cameroon,CMR,2002,0.0,0.0,0.0
+Cameroon,CMR,2003,0.0,0.0,0.0
+Cameroon,CMR,2004,0.0,0.0,0.0
+Cameroon,CMR,2005,0.0,0.0,0.0
+Cameroon,CMR,2006,0.0,0.0,0.0
+Cameroon,CMR,2007,0.0,0.0,0.0
+Cameroon,CMR,2008,0.0,0.0,0.0
+Cameroon,CMR,2009,0.0,0.0,0.0
+Cameroon,CMR,2010,0.0,0.0,0.0
+Cameroon,CMR,2011,0.0,0.0,0.0
+Cameroon,CMR,2012,0.0,0.0,0.0
+Cameroon,CMR,2013,0.0,0.0,0.0
+Cameroon,CMR,2014,0.0,0.0,0.0
+Cameroon,CMR,2015,0.0,0.0,0.0
+Cameroon,CMR,2016,0.0,0.0,0.0
+Cameroon,CMR,2017,0.3,0.0,0.3
+Cameroon,CMR,2018,0.6,0.33,0.9299999999999999
+Cameroon,CMR,2019,0.0,0.0,0.0
+Cameroon,CMR,2020,0.0,0.0,0.0
+Cameroon,CMR,2021,0.0,0.0,0.0
+Cameroon,CMR,2022,0.8,0.0,0.8
+Cameroon,CMR,2023,0.0,0.0,0.0
+Cameroon,CMR,2024,0.0,0.4,0.4
+Democratic Republic of the Congo,COD,1990,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,1991,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,1992,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,1993,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,1994,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,1995,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,1996,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,1997,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,1998,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,1999,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2000,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2001,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2002,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2003,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2004,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2005,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2006,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2007,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2008,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2009,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2010,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2011,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2012,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2013,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2014,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2015,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2016,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2017,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2018,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2019,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2020,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2021,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2022,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2023,0.0,0.0,0.0
+Democratic Republic of the Congo,COD,2024,0.0,0.0,0.0
+Ethiopia,ETH,1990,0.0,0.0,0.0
+Ethiopia,ETH,1991,0.0,0.0,0.0
+Ethiopia,ETH,1992,0.0,0.0,0.0
+Ethiopia,ETH,1993,0.0,0.0,0.0
+Ethiopia,ETH,1994,0.0,0.0,0.0
+Ethiopia,ETH,1995,0.0,0.0,0.0
+Ethiopia,ETH,1996,0.0,0.0,0.0
+Ethiopia,ETH,1997,0.0,0.0,0.0
+Ethiopia,ETH,1998,0.0,0.0,0.0
+Ethiopia,ETH,1999,0.0,0.0,0.0
+Ethiopia,ETH,2000,0.0,0.0,0.0
+Ethiopia,ETH,2001,0.0,0.0,0.0
+Ethiopia,ETH,2002,0.0,0.0,0.0
+Ethiopia,ETH,2003,0.5,0.0,0.5
+Ethiopia,ETH,2004,0.0,0.0,0.0
+Ethiopia,ETH,2005,0.0,0.0,0.0
+Ethiopia,ETH,2006,0.0,0.0,0.0
+Ethiopia,ETH,2007,0.0,0.0,0.0
+Ethiopia,ETH,2008,0.0,0.0,0.0
+Ethiopia,ETH,2009,0.0,0.0,0.0
+Ethiopia,ETH,2010,0.0,0.0,0.0
+Ethiopia,ETH,2011,0.0,0.0,0.0
+Ethiopia,ETH,2012,0.0,0.0,0.0
+Ethiopia,ETH,2013,0.0,0.0,0.0
+Ethiopia,ETH,2014,0.0,0.0,0.0
+Ethiopia,ETH,2015,0.0,0.0,0.0
+Ethiopia,ETH,2016,0.0,0.0,0.0
+Ethiopia,ETH,2017,0.0,0.0,0.0
+Ethiopia,ETH,2018,0.0,0.15,0.15
+Ethiopia,ETH,2019,0.0,0.15,0.15
+Ethiopia,ETH,2020,0.0,0.0,0.0
+Ethiopia,ETH,2021,0.0,0.0,0.0
+Ethiopia,ETH,2022,0.0,0.0,0.0
+Ethiopia,ETH,2023,0.25,0.5,0.75
+Ethiopia,ETH,2024,0.25,0.5,0.75
+Ghana,GHA,1990,0.0,0.0,0.0
+Ghana,GHA,1991,0.0,0.0,0.0
+Ghana,GHA,1992,0.0,0.0,0.0
+Ghana,GHA,1993,0.0,0.0,0.0
+Ghana,GHA,1994,0.0,0.0,0.0
+Ghana,GHA,1995,0.0,1.0,1.0
+Ghana,GHA,1996,0.0,0.0,0.0
+Ghana,GHA,1997,0.0,0.0,0.0
+Ghana,GHA,1998,,,
+Ghana,GHA,1999,0.0,0.0,0.0
+Ghana,GHA,2000,0.0,0.0,0.0
+Ghana,GHA,2001,0.9,0.0,0.9
+Ghana,GHA,2002,0.3,0.0,0.3
+Ghana,GHA,2003,0.0,0.0,0.0
+Ghana,GHA,2004,0.0,0.0,0.0
+Ghana,GHA,2005,0.5,0.0,0.5
+Ghana,GHA,2006,0.0,0.0,0.0
+Ghana,GHA,2007,0.0,0.0,0.0
+Ghana,GHA,2008,0.0,0.0,0.0
+Ghana,GHA,2009,0.0,0.0,0.0
+Ghana,GHA,2010,0.0,0.0,0.0
+Ghana,GHA,2011,0.8,0.0,0.8
+Ghana,GHA,2012,0.0,0.0,0.0
+Ghana,GHA,2013,0.0,0.0,0.0
+Ghana,GHA,2014,0.0,0.0,0.0
+Ghana,GHA,2015,2.0,2.0,4.0
+Ghana,GHA,2016,0.0,0.0,0.0
+Ghana,GHA,2017,0.4,0.8,1.2000000000000002
+Ghana,GHA,2018,0.33,0.0,0.33
+Ghana,GHA,2019,0.0,0.0,0.0
+Ghana,GHA,2020,0.0,0.0,0.0
+Ghana,GHA,2021,0.0,0.0,0.0
+Ghana,GHA,2022,0.0,0.0,0.0
+Ghana,GHA,2023,0.0,0.0,0.0
+Ghana,GHA,2024,0.0,0.0,0.0
+Kenya,KEN,1990,0.0,0.0,0.0
+Kenya,KEN,1991,0.0,0.0,0.0
+Kenya,KEN,1992,0.0,0.0,0.0
+Kenya,KEN,1993,0.55,1.55,2.1
+Kenya,KEN,1994,0.55,1.55,2.1
+Kenya,KEN,1995,0.9,0.0,0.9
+Kenya,KEN,1996,0.9,0.0,0.9
+Kenya,KEN,1997,0.0,0.0,0.0
+Kenya,KEN,1998,0.0,0.0,0.0
+Kenya,KEN,1999,0.0,0.0,0.0
+Kenya,KEN,2000,0.0,0.0,0.0
+Kenya,KEN,2001,0.0,0.0,0.0
+Kenya,KEN,2002,0.0,0.0,0.0
+Kenya,KEN,2003,0.0,0.0,0.0
+Kenya,KEN,2004,0.0,0.0,0.0
+Kenya,KEN,2005,0.0,0.0,0.0
+Kenya,KEN,2006,0.0,0.0,0.0
+Kenya,KEN,2007,0.0,0.0,0.0
+Kenya,KEN,2008,0.0,0.0,0.0
+Kenya,KEN,2009,0.0,0.0,0.0
+Kenya,KEN,2010,0.0,0.0,0.0
+Kenya,KEN,2011,1.1,0.0,1.1
+Kenya,KEN,2012,0.0,0.0,0.0
+Kenya,KEN,2013,0.0,0.0,0.0
+Kenya,KEN,2014,0.0,0.0,0.0
+Kenya,KEN,2015,0.0,0.0,0.0
+Kenya,KEN,2016,0.0,0.0,0.0
+Kenya,KEN,2017,0.0,0.0,0.0
+Kenya,KEN,2018,0.0,0.0,0.0
+Kenya,KEN,2019,0.0,0.0,0.0
+Kenya,KEN,2020,0.0,0.0,0.0
+Kenya,KEN,2021,0.0,0.0,0.0
+Kenya,KEN,2022,0.9,1.2,2.1
+Kenya,KEN,2023,0.0,0.0,0.0
+Kenya,KEN,2024,0.0,0.0,0.0
+Mozambique,MOZ,1990,,,
+Mozambique,MOZ,1991,,,
+Mozambique,MOZ,1992,0.0,0.0,0.0
+Mozambique,MOZ,1993,0.0,0.0,0.0
+Mozambique,MOZ,1994,0.0,0.0,0.0
+Mozambique,MOZ,1995,0.0,0.0,0.0
+Mozambique,MOZ,1996,0.0,0.0,0.0
+Mozambique,MOZ,1997,0.0,0.0,0.0
+Mozambique,MOZ,1998,0.0,0.0,0.0
+Mozambique,MOZ,1999,0.0,0.0,0.0
+Mozambique,MOZ,2000,0.0,0.0,0.0
+Mozambique,MOZ,2001,0.0,0.0,0.0
+Mozambique,MOZ,2002,0.0,0.0,0.0
+Mozambique,MOZ,2003,0.7,0.0,0.7
+Mozambique,MOZ,2004,0.0,0.0,0.0
+Mozambique,MOZ,2005,0.0,0.0,0.0
+Mozambique,MOZ,2006,0.0,0.0,0.0
+Mozambique,MOZ,2007,0.0,0.0,0.0
+Mozambique,MOZ,2008,0.4,0.0,0.4
+Mozambique,MOZ,2009,0.0,0.0,0.0
+Mozambique,MOZ,2010,0.0,0.0,0.0
+Mozambique,MOZ,2011,0.0,0.0,0.0
+Mozambique,MOZ,2012,0.0,0.0,0.0
+Mozambique,MOZ,2013,0.0,0.0,0.0
+Mozambique,MOZ,2014,0.0,0.0,0.0
+Mozambique,MOZ,2015,0.0,0.0,0.0
+Mozambique,MOZ,2016,0.0,0.0,0.0
+Mozambique,MOZ,2017,0.0,0.0,0.0
+Mozambique,MOZ,2018,0.0,0.0,0.0
+Mozambique,MOZ,2019,0.0,0.0,0.0
+Mozambique,MOZ,2020,0.0,0.0,0.0
+Mozambique,MOZ,2021,0.0,0.0,0.0
+Mozambique,MOZ,2022,0.0,0.0,0.0
+Mozambique,MOZ,2023,0.6,0.6,1.2
+Mozambique,MOZ,2024,0.0,0.0,0.0
+Mauritius,MUS,1990,0.0,0.0,0.0
+Mauritius,MUS,1991,0.0,0.0,0.0
+Mauritius,MUS,1992,0.0,0.0,0.0
+Mauritius,MUS,1993,0.0,0.0,0.0
+Mauritius,MUS,1994,0.0,0.0,0.0
+Mauritius,MUS,1995,0.0,0.0,0.0
+Mauritius,MUS,1996,1.0,0.0,1.0
+Mauritius,MUS,1997,1.0,0.0,1.0
+Mauritius,MUS,1998,0.0,0.0,0.0
+Mauritius,MUS,1999,0.0,0.0,0.0
+Mauritius,MUS,2000,0.0,0.0,0.0
+Mauritius,MUS,2001,0.0,0.0,0.0
+Mauritius,MUS,2002,0.0,0.0,0.0
+Mauritius,MUS,2003,0.0,0.0,0.0
+Mauritius,MUS,2004,0.0,0.0,0.0
+Mauritius,MUS,2005,0.0,0.0,0.0
+Mauritius,MUS,2006,0.0,0.0,0.0
+Mauritius,MUS,2007,1.0,0.0,1.0
+Mauritius,MUS,2008,0.0,0.0,0.0
+Mauritius,MUS,2009,0.0,0.0,0.0
+Mauritius,MUS,2010,0.0,0.0,0.0
+Mauritius,MUS,2011,0.0,0.0,0.0
+Mauritius,MUS,2012,0.0,0.0,0.0
+Mauritius,MUS,2013,0.0,0.0,0.0
+Mauritius,MUS,2014,0.0,0.0,0.0
+Mauritius,MUS,2015,0.0,0.0,0.0
+Mauritius,MUS,2016,0.0,0.0,0.0
+Mauritius,MUS,2017,0.0,0.0,0.0
+Mauritius,MUS,2018,0.0,0.0,0.0
+Mauritius,MUS,2019,0.0,0.0,0.0
+Mauritius,MUS,2020,0.0,0.0,0.0
+Mauritius,MUS,2021,0.0,0.0,0.0
+Mauritius,MUS,2022,0.0,0.0,0.0
+Mauritius,MUS,2023,0.0,0.0,0.0
+Mauritius,MUS,2024,0.0,0.0,0.0
+Nigeria,NGA,1990,0.0,0.0,0.0
+Nigeria,NGA,1991,0.0,0.0,0.0
+Nigeria,NGA,1992,0.0,0.0,0.0
+Nigeria,NGA,1993,0.0,0.0,0.0
+Nigeria,NGA,1994,0.0,0.0,0.0
+Nigeria,NGA,1995,0.0,0.0,0.0
+Nigeria,NGA,1996,0.0,0.0,0.0
+Nigeria,NGA,1997,0.0,0.0,0.0
+Nigeria,NGA,1998,0.0,0.0,0.0
+Nigeria,NGA,1999,0.0,0.0,0.0
+Nigeria,NGA,2000,0.0,0.0,0.0
+Nigeria,NGA,2001,0.0,0.0,0.0
+Nigeria,NGA,2002,0.0,0.0,0.0
+Nigeria,NGA,2003,0.0,0.0,0.0
+Nigeria,NGA,2004,0.0,0.0,0.0
+Nigeria,NGA,2005,0.0,0.0,0.0
+Nigeria,NGA,2006,0.0,0.0,0.0
+Nigeria,NGA,2007,0.0,0.0,0.0
+Nigeria,NGA,2008,0.0,0.0,0.0
+Nigeria,NGA,2009,0.0,0.0,0.0
+Nigeria,NGA,2010,0.0,0.0,0.0
+Nigeria,NGA,2011,0.0,0.0,0.0
+Nigeria,NGA,2012,0.0,0.0,0.0
+Nigeria,NGA,2013,0.0,1.0,1.0
+Nigeria,NGA,2014,0.0,0.0,0.0
+Nigeria,NGA,2015,0.0,0.0,0.0
+Nigeria,NGA,2016,0.0,0.0,0.0
+Nigeria,NGA,2017,0.0,0.0,0.0
+Nigeria,NGA,2018,0.0,0.0,0.0
+Nigeria,NGA,2019,0.0,0.0,0.0
+Nigeria,NGA,2020,0.0,0.0,0.0
+Nigeria,NGA,2021,0.0,0.0,0.0
+Nigeria,NGA,2022,0.0,0.0,0.0
+Nigeria,NGA,2023,0.0,0.0,0.0
+Nigeria,NGA,2024,0.0,0.0,0.0
+Rwanda,RWA,1990,,,
+Rwanda,RWA,1991,,,
+Rwanda,RWA,1992,,,
+Rwanda,RWA,1993,,,
+Rwanda,RWA,1994,,,
+Rwanda,RWA,1995,,,
+Rwanda,RWA,1996,,,
+Rwanda,RWA,1997,,,
+Rwanda,RWA,1998,,,
+Rwanda,RWA,1999,0.0,0.0,0.0
+Rwanda,RWA,2000,0.0,0.0,0.0
+Rwanda,RWA,2001,0.0,0.0,0.0
+Rwanda,RWA,2002,0.0,0.0,0.0
+Rwanda,RWA,2003,0.0,0.0,0.0
+Rwanda,RWA,2004,0.0,0.0,0.0
+Rwanda,RWA,2005,0.0,0.0,0.0
+Rwanda,RWA,2006,0.0,0.0,0.0
+Rwanda,RWA,2007,0.0,0.0,0.0
+Rwanda,RWA,2008,0.0,0.0,0.0
+Rwanda,RWA,2009,0.0,0.0,0.0
+Rwanda,RWA,2010,0.0,0.0,0.0
+Rwanda,RWA,2011,0.0,0.0,0.0
+Rwanda,RWA,2012,0.3,0.0,0.3
+Rwanda,RWA,2013,0.3,0.0,0.3
+Rwanda,RWA,2014,0.0,0.0,0.0
+Rwanda,RWA,2015,0.45,0.0,0.45
+Rwanda,RWA,2016,0.35,0.0,0.35
+Rwanda,RWA,2017,0.0,0.0,0.0
+Rwanda,RWA,2018,0.0,0.0,0.0
+Rwanda,RWA,2019,0.0,0.0,0.0
+Rwanda,RWA,2020,0.0,0.0,0.0
+Rwanda,RWA,2021,0.0,0.0,0.0
+Rwanda,RWA,2022,0.1,1.7,1.8
+Rwanda,RWA,2023,0.1,1.55,1.6500000000000001
+Rwanda,RWA,2024,0.2,1.25,1.45
+Senegal,SEN,1990,0.0,0.0,0.0
+Senegal,SEN,1991,0.0,0.0,0.0
+Senegal,SEN,1992,0.0,0.0,0.0
+Senegal,SEN,1993,0.0,0.0,0.0
+Senegal,SEN,1994,0.0,0.0,0.0
+Senegal,SEN,1995,0.75,1.1,1.85
+Senegal,SEN,1996,0.75,1.1,1.85
+Senegal,SEN,1997,0.0,0.0,0.0
+Senegal,SEN,1998,0.0,0.0,0.0
+Senegal,SEN,1999,0.0,0.0,0.0
+Senegal,SEN,2000,0.0,0.0,0.0
+Senegal,SEN,2001,0.0,0.0,0.0
+Senegal,SEN,2002,0.6,1.5,2.1
+Senegal,SEN,2003,0.0,0.0,0.0
+Senegal,SEN,2004,0.0,0.0,0.0
+Senegal,SEN,2005,0.0,0.0,0.0
+Senegal,SEN,2006,0.0,0.0,0.0
+Senegal,SEN,2007,0.0,0.0,0.0
+Senegal,SEN,2008,0.0,0.0,0.0
+Senegal,SEN,2009,0.0,0.0,0.0
+Senegal,SEN,2010,0.0,0.0,0.0
+Senegal,SEN,2011,0.0,0.0,0.0
+Senegal,SEN,2012,0.0,0.0,0.0
+Senegal,SEN,2013,0.4,0.0,0.4
+Senegal,SEN,2014,0.3,0.8,1.1
+Senegal,SEN,2015,0.0,0.0,0.0
+Senegal,SEN,2016,0.0,0.0,0.0
+Senegal,SEN,2017,0.0,0.0,0.0
+Senegal,SEN,2018,0.0,0.3,0.3
+Senegal,SEN,2019,,,
+Senegal,SEN,2020,,,
+Senegal,SEN,2021,,,
+Senegal,SEN,2022,,,
+Senegal,SEN,2023,,,
+Senegal,SEN,2024,,,
+Tanzania,TZA,1990,0.0,0.0,0.0
+Tanzania,TZA,1991,0.0,0.0,0.0
+Tanzania,TZA,1992,0.0,0.0,0.0
+Tanzania,TZA,1993,0.0,0.0,0.0
+Tanzania,TZA,1994,1.4,0.0,1.4
+Tanzania,TZA,1995,1.4,0.35,1.75
+Tanzania,TZA,1996,0.0,0.35,0.35
+Tanzania,TZA,1997,0.0,0.0,0.0
+Tanzania,TZA,1998,0.0,0.0,0.0
+Tanzania,TZA,1999,0.0,0.0,0.0
+Tanzania,TZA,2000,0.0,0.1,0.1
+Tanzania,TZA,2001,0.0,0.1,0.1
+Tanzania,TZA,2002,0.0,0.0,0.0
+Tanzania,TZA,2003,0.0,0.0,0.0
+Tanzania,TZA,2004,0.0,0.0,0.0
+Tanzania,TZA,2005,0.0,0.0,0.0
+Tanzania,TZA,2006,0.0,0.0,0.0
+Tanzania,TZA,2007,0.5,0.0,0.5
+Tanzania,TZA,2008,0.5,0.0,0.5
+Tanzania,TZA,2009,0.0,0.0,0.0
+Tanzania,TZA,2010,0.0,0.0,0.0
+Tanzania,TZA,2011,0.0,0.0,0.0
+Tanzania,TZA,2012,0.0,0.0,0.0
+Tanzania,TZA,2013,0.0,0.0,0.0
+Tanzania,TZA,2014,0.0,0.0,0.0
+Tanzania,TZA,2015,0.0,0.0,0.0
+Tanzania,TZA,2016,0.0,0.0,0.0
+Tanzania,TZA,2017,0.0,0.0,0.0
+Tanzania,TZA,2018,0.0,0.0,0.0
+Tanzania,TZA,2019,0.0,0.0,0.0
+Tanzania,TZA,2020,0.0,0.0,0.0
+Tanzania,TZA,2021,0.0,0.0,0.0
+Tanzania,TZA,2022,0.0,0.0,0.0
+Tanzania,TZA,2023,0.25,0.25,0.5
+Tanzania,TZA,2024,0.25,0.25,0.5
+Uganda,UGA,1990,0.0,0.0,0.0
+Uganda,UGA,1991,0.0,0.0,0.0
+Uganda,UGA,1992,0.0,0.0,0.0
+Uganda,UGA,1993,0.0,0.0,0.0
+Uganda,UGA,1994,0.0,0.0,0.0
+Uganda,UGA,1995,0.0,0.0,0.0
+Uganda,UGA,1996,0.25,0.0,0.25
+Uganda,UGA,1997,0.25,0.0,0.25
+Uganda,UGA,1998,0.0,0.0,0.0
+Uganda,UGA,1999,0.0,0.0,0.0
+Uganda,UGA,2000,0.0,0.0,0.0
+Uganda,UGA,2001,0.0,0.0,0.0
+Uganda,UGA,2002,0.0,0.2,0.2
+Uganda,UGA,2003,0.0,0.2,0.2
+Uganda,UGA,2004,0.0,0.0,0.0
+Uganda,UGA,2005,0.25,0.0,0.25
+Uganda,UGA,2006,0.25,0.0,0.25
+Uganda,UGA,2007,0.35,0.0,0.35
+Uganda,UGA,2008,0.35,0.0,0.35
+Uganda,UGA,2009,0.0,0.0,0.0
+Uganda,UGA,2010,0.0,0.0,0.0
+Uganda,UGA,2011,0.0,0.0,0.0
+Uganda,UGA,2012,0.0,0.0,0.0
+Uganda,UGA,2013,0.0,0.0,0.0
+Uganda,UGA,2014,0.0,0.0,0.0
+Uganda,UGA,2015,0.0,0.0,0.0
+Uganda,UGA,2016,0.0,0.0,0.0
+Uganda,UGA,2017,0.0,0.0,0.0
+Uganda,UGA,2018,0.0,0.0,0.0
+Uganda,UGA,2019,0.0,0.0,0.0
+Uganda,UGA,2020,0.0,0.0,0.0
+Uganda,UGA,2021,0.35,1.2,1.5499999999999998
+Uganda,UGA,2022,0.35,1.2,1.5499999999999998
+Uganda,UGA,2023,0.0,0.3,0.3
+Uganda,UGA,2024,0.0,0.3,0.3
+South Africa,ZAF,1990,0.0,0.0,0.0
+South Africa,ZAF,1991,0.0,0.0,0.0
+South Africa,ZAF,1992,0.0,0.0,0.0
+South Africa,ZAF,1993,1.12,0.0,1.12
+South Africa,ZAF,1994,0.38,0.0,0.38
+South Africa,ZAF,1995,0.0,0.0,0.0
+South Africa,ZAF,1996,0.0,0.0,0.0
+South Africa,ZAF,1997,0.0,0.0,0.0
+South Africa,ZAF,1998,0.0,0.0,0.0
+South Africa,ZAF,1999,0.0,0.0,0.0
+South Africa,ZAF,2000,0.0,0.0,0.0
+South Africa,ZAF,2001,0.0,0.0,0.0
+South Africa,ZAF,2002,0.0,0.0,0.0
+South Africa,ZAF,2003,0.0,0.0,0.0
+South Africa,ZAF,2004,0.0,0.0,0.0
+South Africa,ZAF,2005,0.0,0.0,0.0
+South Africa,ZAF,2006,0.0,0.0,0.0
+South Africa,ZAF,2007,0.0,0.0,0.0
+South Africa,ZAF,2008,0.0,0.0,0.0
+South Africa,ZAF,2009,0.0,0.0,0.0
+South Africa,ZAF,2010,0.0,0.0,0.0
+South Africa,ZAF,2011,0.0,0.0,0.0
+South Africa,ZAF,2012,0.0,0.0,0.0
+South Africa,ZAF,2013,0.0,0.0,0.0
+South Africa,ZAF,2014,0.0,0.0,0.0
+South Africa,ZAF,2015,0.0,0.0,0.0
+South Africa,ZAF,2016,0.0,0.23,0.23
+South Africa,ZAF,2017,0.0,0.08,0.08
+South Africa,ZAF,2018,0.52,0.0,0.52
+South Africa,ZAF,2019,0.18,0.0,0.18
+South Africa,ZAF,2020,0.0,0.0,0.0
+South Africa,ZAF,2021,0.0,0.0,0.0
+South Africa,ZAF,2022,0.0,0.0,0.0
+South Africa,ZAF,2023,0.0,0.0,0.0
+South Africa,ZAF,2024,0.0,0.0,0.0
+Zambia,ZMB,1990,0.0,0.0,0.0
+Zambia,ZMB,1991,0.0,0.0,0.0
+Zambia,ZMB,1992,0.0,0.0,0.0
+Zambia,ZMB,1993,0.0,0.0,0.0
+Zambia,ZMB,1994,0.0,0.0,0.0
+Zambia,ZMB,1995,0.0,0.0,0.0
+Zambia,ZMB,1996,0.0,0.0,0.0
+Zambia,ZMB,1997,0.0,0.0,0.0
+Zambia,ZMB,1998,0.0,0.0,0.0
+Zambia,ZMB,1999,0.0,0.0,0.0
+Zambia,ZMB,2000,0.0,0.0,0.0
+Zambia,ZMB,2001,0.0,0.0,0.0
+Zambia,ZMB,2002,0.0,0.0,0.0
+Zambia,ZMB,2003,0.0,0.0,0.0
+Zambia,ZMB,2004,0.6,1.0,1.6
+Zambia,ZMB,2005,0.0,0.0,0.0
+Zambia,ZMB,2006,0.0,0.0,0.0
+Zambia,ZMB,2007,0.0,0.0,0.0
+Zambia,ZMB,2008,0.0,0.0,0.0
+Zambia,ZMB,2009,0.0,0.0,0.0
+Zambia,ZMB,2010,0.0,0.0,0.0
+Zambia,ZMB,2011,0.0,0.0,0.0
+Zambia,ZMB,2012,0.0,0.0,0.0
+Zambia,ZMB,2013,0.0,0.0,0.0
+Zambia,ZMB,2014,0.0,0.0,0.0
+Zambia,ZMB,2015,0.0,0.0,0.0
+Zambia,ZMB,2016,0.0,0.0,0.0
+Zambia,ZMB,2017,0.0,0.0,0.0
+Zambia,ZMB,2018,0.0,0.0,0.0
+Zambia,ZMB,2019,0.0,0.0,0.0
+Zambia,ZMB,2020,0.0,0.0,0.0
+Zambia,ZMB,2021,0.0,0.0,0.0
+Zambia,ZMB,2022,0.0,0.0,0.0
+Zambia,ZMB,2023,0.0,1.2,1.2
+Zambia,ZMB,2024,0.0,0.0,0.0

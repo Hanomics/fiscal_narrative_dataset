@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fiscal Consolidation Narrative Shocks Schema",
+  "description": "Schema for the annual narrative fiscal consolidation dataset for Sub‑Saharan Africa",
+  "type": "object",
+  "properties": {
+    "country": {
+      "type": "string",
+      "description": "Country name (English)"
+    },
+    "iso3": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3,
+      "description": "ISO 3166‑1 alpha‑3 country code"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Calendar year of the fiscal consolidation episode"
+    },
+    "tax": {
+      "type": ["number", "null"],
+      "description": "Size of tax‑based consolidation in percent of GDP; positive for consolidation episodes, zero if no action"
+    },
+    "spend": {
+      "type": ["number", "null"],
+      "description": "Size of spending‑based consolidation in percent of GDP; positive for consolidation episodes, zero if no action"
+    },
+    "total": {
+      "type": ["number", "null"],
+      "description": "Total size of consolidation (tax + spend) in percent of GDP"
+    }
+  },
+  "required": ["country", "iso3", "year", "tax", "spend", "total"],
+  "additionalProperties": false
+}
