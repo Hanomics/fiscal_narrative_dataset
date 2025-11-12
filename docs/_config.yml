@@ -1,0 +1,7 @@
+theme: minima
+title: "Fiscal Consolidation Narrative Dataset (SSA)"
+description: "A public dataset and documentation site for narrative fiscal consolidation episodes in Sub‑Saharan Africa."
+github:
+  is_project_page: true
+  repository_url: "https://github.com/Hanomics/fiscal_narrative_dataset"
+show_downloads: true
