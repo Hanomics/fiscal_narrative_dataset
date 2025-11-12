@@ -43,6 +43,20 @@ df  <- read.csv(url)
 
 Historical releases are available under `data/versions/` with version numbers in the form `vYYYY.MM`.  For reproducibility, please cite the specific data release you used.
 
+## 📥 Download the Data
+
+You can access the latest and historical versions of the dataset directly:
+
+- **Latest release (current version)**  
+  [narrative_shocks.csv](https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/data/current/narrative_shocks.csv)  
+  [narrative_shocks.dta](https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/data/current/narrative_shocks.dta)  
+  [narrative_shocks.xlsx](https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/data/current/narrative_shocks.xlsx)
+
+- **Archived version (v2025.11)**  
+  [narrative_shocks.csv](https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/data/versions/v2025.11/narrative_shocks.csv)  
+  [narrative_shocks.dta](https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/data/versions/v2025.11/narrative_shocks.dta)  
+  [narrative_shocks.xlsx](https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/data/versions/v2025.11/narrative_shocks.xlsx)
+
 ## Further reading
 
 * [Methods](methods.md) – details on how consolidation episodes were identified.
