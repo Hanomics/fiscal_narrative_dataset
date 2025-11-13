@@ -1,13 +1,13 @@
-# Fiscal Consolidation Narrative Shocks for Sub‑Saharan Africa
+# Fiscal Consolidation Narrative Shocks
 
-Welcome to the **Fiscal Consolidation Narrative Shocks** repository for Sub‑Saharan Africa (SSA).  This repository contains a longitudinal dataset of narrative fiscal consolidation episodes for a group of African countries, along with supporting documentation, a working paper appendix, and a simple documentation site.
+Welcome to the **Fiscal Consolidation Narrative Shocks** repository for Sub‑Saharan Africa (SSA).  This repository contains a longitudinal dataset of narrative fiscal consolidation episodes for a group of African countries, along with supporting documentation, a working paper appendix, and a documentation site.
 
 The goal of this project is to provide a transparent and reproducible record of annual, narrative‑based fiscal consolidation actions for each country in the sample.  Researchers can explore the underlying text excerpts and download the structured data in multiple formats.
 
 ## What you will find here
 
 * **Data files** under `data/` with annual series of tax and spending consolidation actions (`tax`, `spend`, `total`) for each country and year.  The `versions/` subdirectory contains immutable, versioned releases (e.g. `v2025.11`), while `current/` points to the most recent release for convenience.
-* **Documentation** in `docs/` which powers a GitHub Pages site.  The site provides a coverage table, a variable dictionary, methodological notes, and release notes.
+* **Documentation** in `docs/` provides a coverage table, a variable dictionary, methodological notes, and release notes.
 * **Working paper materials** in `paper/`.  The `appendix/` folder includes the narrative appendix with the text excerpts used to identify episodes.
 * **Governance documents** in `governance/`, including a roadmap for future country expansions and guidelines for submitting new episodes.
 * **Scripts** in `scripts/` to validate the dataset and build the documentation site.  These scripts are minimal at first but can be extended as the project grows.
@@ -17,18 +17,18 @@ The goal of this project is to provide a transparent and reproducible record of 
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/yourusername/fiscal-consolidation-ssa.git
-   cd fiscal-consolidation-ssa
+   git clone https://github.com/hanomics/fiscal_narrative_dataset.git
+   cd fiscal_narrative_dataset
    ```
 
 2. Download the latest dataset in CSV format from `data/current/narrative_shocks.csv` or via the raw URL:
 
    ```r
    # R example
-   shocks <- read.csv("https://raw.githubusercontent.com/yourusername/fiscal-consolidation-ssa/main/data/current/narrative_shocks.csv")
+   shocks <- read.csv("https://raw.githubusercontent.com/hanomics/fiscal_narrative_dataset/main/data/current/narrative_shocks.csv")
    ```
 
-3. Visit the documentation site at <https://yourusername.github.io/fiscal-consolidation-ssa/> to browse the variable dictionary, country coverage table, and frequently asked questions.
+3. Visit the documentation site at <https://hanomics.github.io/fiscal_narrative_dataset/> to browse the variable dictionary, country coverage table, and frequently asked questions.
 
 ## Citation
 
@@ -36,7 +36,7 @@ If you use this dataset or site in your research, please cite the accompanying w
 
 ## Contributing
 
-We welcome feedback and contributions.  Please open an issue or pull request to report errors, suggest improvements, or propose new episodes.  See `CONTRIBUTING.md` for more details on how to contribute and `governance/submission_guide.md` for guidance on proposing new episodes.
+We welcome feedback and contributions. Please open an issue or pull request to report errors, suggest improvements, or propose new episodes.  See `CONTRIBUTING.md` for more details on how to contribute and `governance/submission_guide.md` for guidance on proposing new episodes.
 
 ## License
 

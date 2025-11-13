@@ -1,3 +1,11 @@
+<nav style="margin-bottom:1rem;">
+  <a href="./index.html">Home</a> ·
+  <a href="./methods.html">Methods</a> ·
+  <a href="./variables.html">Variables</a> ·
+  <a href="./releases.html">Releases</a> ·
+  <a href="./faq.html">FAQ</a>
+</nav>
+
 # Methods
 
 ## Narrative identification strategy
