@@ -1,13 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this dataset or documentation, please cite both the data release and the accompanying working paper."
-title: "Fiscal Consolidation Narrative Shocks for Sub‑Saharan Africa"
+message: "If you use this dataset or documentation, please cite both the dataset and the accompanying paper."
+
+title: "A Narrative Fiscal Consolidation Dataset for Sub-Saharan Africa"
 version: "2025.11"
+
 authors:
-  - family-names: Researcher
-    given-names: Sample
-    orcid: "0000-0000-0000-0000"
-    affiliation: University
+  - family-names: Abdel-Latif
+    given-names: Hany
+    affiliation: International Monetary Fund
+  - family-names: Bechchani
+    given-names: Khalil
+    affiliation: Université de Sherbrooke
+  - family-names: David
+    given-names: Antonio
+    affiliation: International Monetary Fund
+  - family-names: Lemaire
+    given-names: Thibault
+    affiliation: International Monetary Fund
+
 date-released: 2025-11-12
+
 doi: 10.1234/ssa.fiscal.consolidation.2025.11
+
+repository-code: "https://github.com/Hanomics/fiscal_narrative_dataset"
+
 license: CC-BY-4.0
-repository-code: https://github.com/yourusername/fiscal-consolidation-ssa
