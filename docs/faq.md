@@ -3,6 +3,7 @@
   <a href="./methods.html">Methods</a> ·
   <a href="./variables.html">Variables</a> ·
   <a href="./releases.html">Releases</a> ·
+  <a href="./quotes/index.html">Quotes</a> ·
   <a href="./faq.html">FAQ</a>
 </nav>
 
