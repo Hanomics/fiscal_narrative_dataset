@@ -1,9 +1,10 @@
-<nav style="margin-bottom:1rem;">
-  <a href="./index.html">Home</a> ·
-  <a href="./methods.html">Methods</a> ·
-  <a href="./variables.html">Variables</a> ·
-  <a href="./releases.html">Releases</a> ·
-  <a href="./faq.html">FAQ</a>
+<nav class="nav">
+  <a href="../index.html">Home</a>
+  <a href="../methods.html">Methods</a>
+  <a href="../variables.html">Variables</a>
+  <a href="../releases.html">Releases</a>
+  <a href="../quotes/index.html">Quotes</a>
+  <a href="../faq.html">FAQ</a>
 </nav>
 
 # Variables
