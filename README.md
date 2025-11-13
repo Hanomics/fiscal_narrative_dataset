@@ -34,6 +34,23 @@ The goal of this project is to provide a transparent and reproducible record of 
 
 If you use this dataset or site in your research, please cite the accompanying working paper and the dataset release using the citation information in `CITATION.cff`.  You can also cite the data release DOI directly once it has been minted.
 
+**APA Citation**
+
+Abdel-Latif, H., Bechchani, K., David, A., & Lemaire, T. (2025). A Narrative Fiscal Consolidation Dataset for Sub-Saharan Africa (Version 2025.11). International Monetary Fund. https://doi.org/10.1234/ssa.fiscal.consolidation.2025.11
+
+**BibTeX Citation**
+@dataset{abdel_latif_2025_fiscal_narrative_ssa,
+  author       = {Abdel-Latif, Hany and Bechchani, Khalil and David, Antonio and Lemaire, Thibault},
+  title        = {A Narrative Fiscal Consolidation Dataset for Sub-Saharan Africa},
+  year         = {2025},
+  version      = {2025.11},
+  institution  = {International Monetary Fund},
+  doi          = {10.1234/ssa.fiscal.consolidation.2025.11},
+  url          = {https://github.com/Hanomics/fiscal_narrative_dataset},
+  note         = {If you use this dataset or documentation, please cite both the dataset and the accompanying paper.}
+}
+
+
 ## Contributing
 
 We welcome feedback and contributions. Please open an issue or pull request to report errors, suggest improvements, or propose new episodes.  See `CONTRIBUTING.md` for more details on how to contribute and `governance/submission_guide.md` for guidance on proposing new episodes.
