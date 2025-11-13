@@ -9,7 +9,7 @@
 <body>
   <header class="header">
     <h1>Quotes Explorer</h1>
-    <p class="subtitle">Browse narrative evidence by <b>country</b> and <b>year</b>. Search within quotes & sources.</p>
+    <p class="subtitle">Browse narrative evidence by <b>country</b>, <b>year</b>, and <b>dataset inclusion</b>. Search within quotes & sources.</p>
     <nav class="nav">
       <a href="../index.html">Home</a>
       <a href="../methods.html">Methods</a>
@@ -28,9 +28,17 @@
       <label for="yearSelect">Year</label>
       <select id="yearSelect"></select>
     </div>
+    <div class="control">
+      <label for="inclSelect">Included Year</label>
+      <select id="inclSelect">
+        <option value="">All</option>
+        <option value="true">Included only</option>
+        <option value="false">Excluded only</option>
+      </select>
+    </div>
     <div class="control grow">
       <label for="searchInput">Keyword</label>
-      <input id="searchInput" type="search" placeholder="e.g., VAT, expenditure, debt" />
+      <input id="searchInput" type="search" placeholder="e.g., VAT, wage bill, subsidy" />
     </div>
     <div class="control buttons">
       <button id="clearBtn">Clear</button>
@@ -43,7 +51,7 @@
   <section id="results" class="results"></section>
 
   <footer class="footer">
-    <small>Demo UI. Data are illustrative only. This page runs entirely client-side.</small>
+    <small>Prototype UI wired to extracted quotes; report links intentionally omitted (to be added later).</small>
   </footer>
 
   <script src="./app.js"></script>

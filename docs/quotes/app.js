@@ -1,9 +1,10 @@
-// Vanilla JS demo — fetch JSON, populate filters, render cards, support shareable links + CSV download
-const DATA_URL = '../data/appendix.sample.json';
+// Quotes app with 'Included only' filter and IMF report number field
+const DATA_URL = '../data/appendix.json';
 
 const els = {
   country: document.getElementById('countrySelect'),
   year: document.getElementById('yearSelect'),
+  incl: document.getElementById('inclSelect'),
   search: document.getElementById('searchInput'),
   clear: document.getElementById('clearBtn'),
   copyLink: document.getElementById('copyLinkBtn'),
@@ -13,23 +14,23 @@ const els = {
 };
 
 let raw = [];
-let state = { iso3: '', year: '', q: '' };
+let state = { iso3: '', year: '', q: '', included: '' };
 
 init();
 
 async function init(){
-  // load data
   const res = await fetch(DATA_URL);
   raw = await res.json();
 
-  // hydrate state from URL
   const p = new URLSearchParams(location.search);
   state.iso3 = p.get('iso3') || '';
   state.year = p.get('year') || '';
   state.q    = p.get('q') || '';
+  state.included = p.get('included') || '';
 
-  // controls
-  els.search.value = state.q;
+  document.getElementById('searchInput').value = state.q;
+  document.getElementById('inclSelect').value = state.included;
+
   populateFilters();
   bindEvents();
   render();
@@ -44,7 +45,7 @@ function populateFilters(){
     countries.map(c => `<option value='${c.iso3}'>${c.country} (${c.iso3})</option>`).join('');
   els.country.value = state.iso3;
 
-  const yearsSet = new Set(raw.map(d => d.year));
+  const yearsSet = new Set(raw.map(d => d.year).filter(Boolean));
   const years = Array.from(yearsSet).sort((a,b) => a-b);
   els.year.innerHTML = `<option value=''>All years</option>` + years.map(y => `<option>${y}</option>`).join('');
   els.year.value = state.year;
@@ -53,10 +54,11 @@ function populateFilters(){
 function bindEvents(){
   els.country.addEventListener('change', () => { state.iso3 = els.country.value; syncURL(); render(); });
   els.year.addEventListener('change', () => { state.year = els.year.value; syncURL(); render(); });
+  els.incl.addEventListener('change', () => { state.included = els.incl.value; syncURL(); render(); });
   els.search.addEventListener('input', debounce(() => { state.q = els.search.value.trim(); syncURL(); render(); }, 200));
   els.clear.addEventListener('click', () => {
-    state = { iso3:'', year:'', q:'' };
-    els.country.value=''; els.year.value=''; els.search.value='';
+    state = { iso3:'', year:'', q:'', included:'' };
+    els.country.value=''; els.year.value=''; els.search.value=''; els.incl.value='';
     syncURL(); render();
   });
   els.copyLink.addEventListener('click', async () => {
@@ -77,22 +79,25 @@ function filterData(arr, st){
   return arr.filter(d =>
     (!st.iso3 || d.iso3 === st.iso3) &&
     (!st.year || String(d.year) === String(st.year)) &&
-    (!q || [d.quote, d.source_title, d.motivation, (d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q))
+    (!st.included || String(Boolean(d.included)) === st.included) &&
+    (!q || [d.quote, d.source_title, d.motivation, d.imf_report_no || '', (d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q))
   );
 }
 
 function renderCard(d){
   const tags = (d.tags||[]).map(t => `<span class="badge">${escapeHtml(t)}</span>`).join('');
   const size = (d.size_pct_gdp != null) ? ` · Size: ${d.size_pct_gdp}% GDP` : '';
-  const src = d.source_url ? `<a href="${d.source_url}" target="_blank" rel="noopener">${escapeHtml(d.source_title||'Source')}</a>` : escapeHtml(d.source_title||'Source');
+  const srcTitle = d.source_title || 'IMF Staff Report';
+  const report = d.imf_report_no ? ` • ${escapeHtml(d.imf_report_no)}` : '';
+  const page = d.page ? `, ${escapeHtml(d.page)}` : '';
   return `<article class="card">
-    <div class="meta"><b>${escapeHtml(d.country)}</b> • ${d.year} • ${d.action_type.toUpperCase()}${size}</div>
+    <div class="meta"><b>${escapeHtml(d.country)}</b> • ${d.year ?? '—'} • ${(d.action_type||'UNSPEC').toUpperCase()}${size}</div>
     <div class="quote">“${escapeHtml(d.quote)}”</div>
     <div class="badges">
-      <span class="badge">${escapeHtml(d.motivation || 'motivation')}</span>
+      ${d.included === true ? '<span class="badge">Included ✓</span>' : (d.included === false ? '<span class="badge">Excluded</span>' : '')}
       ${tags}
     </div>
-    <div class="meta">Source: ${src}${d.page ? ', ' + escapeHtml(d.page) : ''}</div>
+    <div class="meta">Source: ${escapeHtml(srcTitle)}${report}${page}</div>
   </article>`;
 }
 
@@ -100,6 +105,7 @@ function summarySuffix(st){
   const parts = [];
   if (st.iso3) parts.push(st.iso3);
   if (st.year) parts.push(st.year);
+  if (st.included) parts.push(st.included === 'true' ? 'Included' : 'Excluded');
   if (st.q) parts.push(`“${st.q}”`);
   return parts.length ? ` for ${parts.join(' · ')}` : '';
 }
@@ -108,6 +114,7 @@ function syncURL(){
   const p = new URLSearchParams();
   if (state.iso3) p.set('iso3', state.iso3);
   if (state.year) p.set('year', state.year);
+  if (state.included) p.set('included', state.included);
   if (state.q)    p.set('q', state.q);
   const newUrl = location.pathname + (p.toString()?`?${p.toString()}`:'');
   history.replaceState(null, '', newUrl);

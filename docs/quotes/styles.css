@@ -1,12 +1,12 @@
 /* Minimal, clean styling (no external CSS) */
 :root { --bg:#ffffff; --fg:#111; --muted:#666; --accent:#0b5fff; --border:#e5e7eb; }
 * { box-sizing: border-box; }
-body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif; color:var(--fg); background:var(--bg); }
-.header { padding: 24px 20px 8px; border-bottom:1px solid var(--border); }
+body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif; color:var(--fg); background:#fafafa; }
+.header { padding: 24px 20px 8px; border-bottom:1px solid var(--border); background:#fff; }
 .header h1 { margin:0; font-size: 1.6rem; }
 .subtitle { margin:6px 0 12px; color:var(--muted); }
 .nav a { margin-right:12px; color:var(--accent); text-decoration:none; font-size:0.95rem; }
-.controls { display:flex; flex-wrap:wrap; gap:12px; padding:14px 20px; border-bottom:1px solid var(--border); background:#fafafa; }
+.controls { display:flex; flex-wrap:wrap; gap:12px; padding:14px 20px; border-bottom:1px solid var(--border); background:#f8fafc; }
 .control { display:flex; flex-direction:column; gap:6px; min-width:160px; }
 .control.grow { flex:1 1 240px; }
 .control input, .control select, .control button { padding:10px; border:1px solid var(--border); border-radius:10px; font-size:0.95rem; background:#fff; }
