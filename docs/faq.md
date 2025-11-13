@@ -27,7 +27,7 @@ Yes.  You can use the raw file URL on GitHub to fetch the latest CSV.  For examp
 
 ```python
 import pandas as pd
-url = "https://raw.githubusercontent.com/yourusername/fiscal-consolidation-ssa/main/data/current/narrative_shocks.csv"
+url = "https://raw.githubusercontent.com/hanomics/fiscal_narrative_dataset/main/data/current/narrative_shocks.csv"
 df = pd.read_csv(url)
 ```
 
