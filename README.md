@@ -17,8 +17,8 @@ The goal of this project is to provide a transparent and reproducible record of 
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/yourusername/fiscal-consolidation-ssa.git
-   cd fiscal-consolidation-ssa
+   git clone https://github.com/hanomics/fiscal_narrative_dataset.git
+   cd fiscal_narrative_dataset
    ```
 
 2. Download the latest dataset in CSV format from `data/current/narrative_shocks.csv` or via the raw URL:
