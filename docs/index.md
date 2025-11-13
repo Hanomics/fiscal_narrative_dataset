@@ -64,6 +64,26 @@ You can access the latest and historical versions of the dataset directly:
   [narrative_shocks.dta](https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/data/versions/v2025.11/narrative_shocks.dta)  
   [narrative_shocks.xlsx](https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/data/versions/v2025.11/narrative_shocks.xlsx)
 
+## How to Cite
+
+**APA 7th edition**
+
+Abdel-Latif, H., Bechchani, K., David, A., & Lemaire, T. (2025). A Narrative Fiscal Consolidation Dataset for Sub-Saharan Africa (Version 2025.11). International Monetary Fund. https://doi.org/10.1234/ssa.fiscal.consolidation.2025.11
+
+**BibTeX Citation**
+
+@dataset{abdel_latif_2025_fiscal_narrative_ssa,
+  author       = {Abdel-Latif, Hany and Bechchani, Khalil and David, Antonio and Lemaire, Thibault},
+  title        = {A Narrative Fiscal Consolidation Dataset for Sub-Saharan Africa},
+  year         = {2025},
+  version      = {2025.11},
+  institution  = {International Monetary Fund},
+  doi          = {10.1234/ssa.fiscal.consolidation.2025.11},
+  url          = {https://github.com/Hanomics/fiscal_narrative_dataset},
+  note         = {If you use this dataset or documentation, please cite both the dataset and the accompanying paper.}
+}
+
+
 ## Further reading
 
 * [Methods](methods.md) – details on how consolidation episodes were identified.
