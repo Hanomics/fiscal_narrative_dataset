@@ -1,4 +1,4 @@
-# Fiscal Consolidation Narrative Shocks for Sub‑Saharan Africa
+# Fiscal Consolidation Narrative Shocks
 
 Welcome to the **Fiscal Consolidation Narrative Shocks** repository for Sub‑Saharan Africa (SSA).  This repository contains a longitudinal dataset of narrative fiscal consolidation episodes for a group of African countries, along with supporting documentation, a working paper appendix, and a documentation site.
 
