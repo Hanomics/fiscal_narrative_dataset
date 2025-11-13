@@ -25,10 +25,10 @@ The goal of this project is to provide a transparent and reproducible record of 
 
    ```r
    # R example
-   shocks <- read.csv("https://raw.githubusercontent.com/hanomics/fiscal-consolidation-ssa/main/data/current/narrative_shocks.csv")
+   shocks <- read.csv("https://raw.githubusercontent.com/hanomics/fiscal_narrative_dataset/main/data/current/narrative_shocks.csv")
    ```
 
-3. Visit the documentation site at <https://hanomics.github.io/fiscal-consolidation-ssa/> to browse the variable dictionary, country coverage table, and frequently asked questions.
+3. Visit the documentation site at <https://hanomics.github.io/fiscal_narrative_dataset/> to browse the variable dictionary, country coverage table, and frequently asked questions.
 
 ## Citation
 
