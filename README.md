@@ -1,60 +1,105 @@
-# Fiscal Consolidation Narrative Shocks
+# A Narrative Fiscal Consolidation Dataset for Sub‑Saharan Africa
 
-Welcome to the **Fiscal Consolidation Narrative Shocks** repository for Sub‑Saharan Africa (SSA).  This repository contains a longitudinal dataset of narrative fiscal consolidation episodes for a group of African countries, along with supporting documentation, a working paper appendix, and a documentation site.
+Welcome to the repository of the **Narrative Fiscal Consolidation Dataset** for
+Sub‑Saharan Africa (SSA). It provides a longitudinal, narrative‑based record
+of discretionary fiscal consolidation episodes for a group of SSA countries,
+built from IMF staff reports and supporting documents, together with the two
+IMF working papers that accompany the data.
 
-The goal of this project is to provide a transparent and reproducible record of annual, narrative‑based fiscal consolidation actions for each country in the sample.  Researchers can explore the underlying text excerpts and download the structured data in multiple formats.
+Documentation site: <https://hanomics.github.io/fiscal_narrative_dataset/>
 
-## What you will find here
+## Paper replication dataset
 
-* **Data files** under `data/` with annual series of tax and spending consolidation actions (`tax`, `spend`, `total`) for each country and year.  The `versions/` subdirectory contains immutable, versioned releases (e.g. `v2025.11`), while `current/` points to the most recent release for convenience.
-* **Documentation** in `docs/` provides a coverage table, a variable dictionary, methodological notes, and release notes.
-* **Working paper materials** in `paper/`.  The `appendix/` folder includes the narrative appendix with the text excerpts used to identify episodes.
-* **Governance documents** in `governance/`, including a roadmap for future country expansions and guidelines for submitting new episodes.
-* **Scripts** in `scripts/` to validate the dataset and build the documentation site.  These scripts are minimal at first but can be extended as the project grows.
+The authoritative file for replicating the findings in the two IMF working
+papers below is `dataset.dta` at the root of this repository. It is preserved
+as a fixed version. Future annual updates of the narrative dataset will be
+released separately so that published results remain reproducible.
 
-## Quick start
+Direct download:
+<https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/dataset.dta>
 
-1. Clone this repository:
+```r
+# R
+library(haven)
+df <- read_dta("https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/dataset.dta")
+```
 
-   ```sh
-   git clone https://github.com/hanomics/fiscal_narrative_dataset.git
-   cd fiscal_narrative_dataset
-   ```
+```python
+# Python
+import pandas as pd
+df = pd.read_stata("https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/dataset.dta")
+```
 
-2. Download the latest dataset in CSV format from `data/current/narrative_shocks.csv` or via the raw URL:
+```stata
+* Stata
+use "https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/dataset.dta", clear
+```
 
-   ```r
-   # R example
-   shocks <- read.csv("https://raw.githubusercontent.com/hanomics/fiscal_narrative_dataset/main/data/current/narrative_shocks.csv")
-   ```
+## Associated papers
 
-3. Visit the documentation site at <https://hanomics.github.io/fiscal_narrative_dataset/> to browse the variable dictionary, country coverage table, and frequently asked questions.
+The two IMF working papers that accompany the dataset are included at the root
+of this repository.
+
+- **A Narrative Fiscal Consolidation Dataset for Sub‑Saharan Africa** —
+  construction of the dataset.
+  DOI: <https://doi.org/10.5089/9798229034661.001>
+  PDF: [Narrative Dataset SSA.pdf](https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/Narrative%20Dataset%20SSA.pdf)
+
+- **The Fiscal Multipliers Narrative of Sub‑Saharan Africa** — an application
+  using the dataset.
+  DOI: <https://doi.org/10.5089/9798229037792.001>
+  PDF: [Fiscal Multipliers Narrative of SSA.pdf](https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/Fiscal%20Multipliers%20Narrative%20of%20SSA.pdf)
+
+Future updates may consolidate both papers into a single academic journal
+publication.
+
+## Repository contents
+
+- `dataset.dta` — authoritative paper replication dataset.
+- `Narrative Dataset SSA.pdf`, `Fiscal Multipliers Narrative of SSA.pdf` —
+  the two IMF working papers.
+- `docs/` — documentation site (served at the link above) with methods,
+  variables, releases, FAQ, and the Quotes Explorer.
+- `paper/` — working‑paper materials, including the narrative appendix with
+  the text excerpts used to identify episodes.
+- `governance/` — governance documents, including a roadmap for future country
+  expansions and guidelines for submitting new episodes.
+- `scripts/` — small utilities to validate the dataset and build the site.
 
 ## Citation
 
-If you use this dataset or site in your research, please cite the accompanying working paper and the dataset release using the citation information in `CITATION.cff`.  You can also cite the data release DOI directly once it has been minted.
+If you use the dataset in your research, please cite this repository and the
+associated working paper using the information in `CITATION.cff`.
 
-**APA Citation**
+**APA**
 
-Abdel-Latif, H., Bechchani, K., David, A., & Lemaire, T. (2025). A Narrative Fiscal Consolidation Dataset for Sub-Saharan Africa (Version 2025.11). International Monetary Fund. https://doi.org/10.1234/ssa.fiscal.consolidation.2025.11
+Abdel‑Latif, H., Bechchani, K., David, A., & Lemaire, T. (2025). *A Narrative
+Fiscal Consolidation Dataset for Sub‑Saharan Africa*. International Monetary
+Fund Working Paper. <https://doi.org/10.5089/9798229034661.001>
 
-**BibTeX Citation**
-@dataset{abdel_latif_2025_fiscal_narrative_ssa,
-  author       = {Abdel-Latif, Hany and Bechchani, Khalil and David, Antonio and Lemaire, Thibault},
-  title        = {A Narrative Fiscal Consolidation Dataset for Sub-Saharan Africa},
-  year         = {2025},
-  version      = {2025.11},
-  institution  = {International Monetary Fund},
-  doi          = {10.1234/ssa.fiscal.consolidation.2025.11},
-  url          = {https://github.com/Hanomics/fiscal_narrative_dataset},
-  note         = {If you use this dataset or documentation, please cite both the dataset and the accompanying paper.}
+**BibTeX**
+
+```bibtex
+@techreport{abdel_latif_2025_narrative_ssa,
+  author      = {Abdel-Latif, Hany and Bechchani, Khalil and David, Antonio and Lemaire, Thibault},
+  title       = {A Narrative Fiscal Consolidation Dataset for Sub-Saharan Africa},
+  year        = {2025},
+  institution = {International Monetary Fund},
+  type        = {IMF Working Paper},
+  doi         = {10.5089/9798229034661.001},
+  url         = {https://github.com/Hanomics/fiscal_narrative_dataset}
 }
-
+```
 
 ## Contributing
 
-We welcome feedback and contributions. Please open an issue or pull request to report errors, suggest improvements, or propose new episodes.  See `CONTRIBUTING.md` for more details on how to contribute and `governance/submission_guide.md` for guidance on proposing new episodes.
+We welcome feedback and contributions. Please open an issue or pull request to
+report errors, suggest improvements, or propose new episodes. See
+`CONTRIBUTING.md` for more details and `governance/submission_guide.md` for
+guidance on proposing new episodes.
 
 ## License
 
-The dataset and documentation are released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.  The code in this repository is available under the MIT license.  See `LICENSE` for details.
+The dataset and documentation are released under the Creative Commons
+Attribution 4.0 International (CC BY 4.0) license. The code in this repository
+is available under the MIT license. See `LICENSE` for details.
