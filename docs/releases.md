@@ -9,11 +9,25 @@
 
 # Release history
 
-This page lists the public releases of the narrative fiscal consolidation dataset.  Each release is immutable; we encourage users to cite the specific version used in their research.
+This page lists the public releases of the narrative fiscal consolidation
+dataset. The paper replication dataset is preserved as a fixed version so the
+findings in the accompanying IMF working papers can be reproduced. Future
+annual updates will be released separately.
 
-## v2025.11 (2025‑11‑12)
+## Paper replication dataset
 
-* Initial release of the dataset for 14 Sub‑Saharan African countries.
-* Provides annual series of narrative fiscal consolidations from 1990 onward, with variables `tax`, `spend`, and `total`.
-* Data available in CSV and Stata `.dta` formats.
-* Includes a working paper appendix with the narrative excerpts used to identify episodes.
+- **File:** [`dataset.dta`](https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/dataset.dta)
+  (at the root of the repository)
+- **Status:** authoritative replication dataset for the two IMF working papers
+  listed on the [home page](./index.html).
+- **Coverage:** annual series of narrative fiscal consolidations for 16
+  Sub‑Saharan African countries from 1990 onward, with variables `tax`,
+  `spend`, and `total`.
+- **Stability:** preserved unchanged — updates will be published as separate
+  annual releases rather than overwriting this file.
+
+## Future annual updates
+
+Annual updates of the narrative dataset will be released here. Each update
+will be documented with release notes summarising coverage changes, additions
+to episodes, and any methodological revisions.

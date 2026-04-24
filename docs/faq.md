@@ -21,17 +21,34 @@ The initial release includes 14 Sub‑Saharan African countries.  See the countr
 
 The `tax` and `spend` variables record the projected fiscal impact of the announced measures, expressed as a percentage of GDP.  These projections are taken from official documents (budget reports, medium‑term frameworks) or IMF staff reports.  The `total` variable is the sum of `tax` and `spend`.
 
+### Which file should I use for replication?
+
+Use `dataset.dta` at the root of the repository. It is the authoritative paper
+replication dataset for the two IMF working papers listed on the
+[home page](./index.html). It is preserved as a fixed version; future annual
+updates of the narrative dataset will be released separately.
+
 ### Can I download the data programmatically?
 
-Yes.  You can use the raw file URL on GitHub to fetch the latest CSV.  For example, in Python:
+Yes. Use the raw GitHub URL for `dataset.dta`:
 
 ```python
+# Python
 import pandas as pd
-url = "https://raw.githubusercontent.com/hanomics/fiscal_narrative_dataset/main/data/current/narrative_shocks.csv"
-df = pd.read_csv(url)
+url = "https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/dataset.dta"
+df = pd.read_stata(url)
 ```
 
-You can also fetch specific releases by replacing `main` with the tag (e.g., `v2025.11`).
+```r
+# R
+library(haven)
+df <- read_dta("https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/dataset.dta")
+```
+
+```stata
+* Stata
+use "https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/dataset.dta", clear
+```
 
 ### How can I contribute a new country or episode?
 
