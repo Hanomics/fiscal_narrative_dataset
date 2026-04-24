@@ -11,6 +11,11 @@ not been reconciled with the Stata file yet.
 
 Exits non-zero only if the file is missing or unreadable.
 
+TODO: reconcile `data/schema/dataset_schema.json` with the actual columns and
+dtypes of `dataset.dta` (the Stata replication dataset), then tighten this
+validator again to enforce the reconciled schema (required columns, dtypes,
+and no duplicate country-year rows).
+
 Usage:
 
     python validate_dataset.py
