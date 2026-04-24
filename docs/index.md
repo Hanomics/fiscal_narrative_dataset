@@ -10,17 +10,21 @@
 <style>
   .fig-grid { display:grid; gap:1rem; margin:1rem 0 1.5rem 0; }
   .fig-grid.cols-2 { grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); }
-  .fig-grid.cols-4 { grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); }
-  .fig-card { border:1px solid #e5e7eb; border-radius:8px; padding:1rem;
-              background:#fafafa; margin:0; }
-  .fig-card h4 { margin:0 0 0.35rem 0; font-size:1rem; }
-  .fig-card .cap { margin:0 0 0.65rem 0; color:#444; font-size:0.95rem; }
-  .fig-card .open {
-    display:inline-block; padding:0.35rem 0.7rem; background:#1f6feb;
-    color:#fff; border-radius:5px; text-decoration:none; font-size:0.9rem;
-    font-weight:600;
+  .fig-grid.cols-2x2 { grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); }
+  .fig-card {
+    border:1px solid #e5e7eb; border-radius:10px; padding:0.9rem;
+    background:#fff; margin:0;
   }
-  .fig-card .open:hover { background:#1a5fd1; }
+  .fig-card img {
+    display:block; width:100%; height:auto; border-radius:6px;
+    border:1px solid #eef0f3;
+  }
+  .fig-card figcaption { margin:0.55rem 0.1rem 0 0.1rem; color:#444; font-size:0.95rem; }
+  .fig-card .pdf {
+    display:inline-block; margin-top:0.4rem; font-size:0.85rem;
+    color:#1f6feb; text-decoration:none;
+  }
+  .fig-card .pdf:hover { text-decoration:underline; }
   .btn-primary {
     display:inline-block; padding:0.6rem 1.1rem; background:#1f6feb;
     color:#fff; border-radius:6px; text-decoration:none; font-weight:600;
@@ -66,12 +70,14 @@
 > as a fixed version so users can replicate the findings in the papers. Future
 > annual updates of the narrative dataset will be released separately.
 
-<figure class="fig-card" style="max-width:46rem;">
-  <h4>Headline result — effect of a 1% of GDP fiscal consolidation on real GDP</h4>
-  <p class="cap">Estimated effect of a 1 percent of GDP fiscal consolidation on real GDP.</p>
-  <a class="open"
-     href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_7_gdp_fc.pdf"
-     target="_blank" rel="noopener">Open figure (PDF) →</a>
+<figure class="fig-card" style="max-width:850px;">
+  <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_7_gdp_fc.png"
+       alt="Estimated effect of a 1 percent of GDP fiscal consolidation on real GDP">
+  <figcaption>Estimated effect of a 1 percent of GDP fiscal consolidation on real GDP.</figcaption>
+  <a class="pdf"
+     href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_7_gdp_fc.pdf">
+    Download PDF
+  </a>
 </figure>
 
 ## Quick links
@@ -111,12 +117,14 @@ cyclically driven movements in deficits. Compared with identification based on
 the cyclically adjusted primary balance (CAPB) or on forecast errors, narrative
 shocks imply larger and more persistent output effects.
 
-<figure class="fig-card" style="max-width:46rem;">
-  <h4>Narrative vs. CAPB vs. forecast-error identification</h4>
-  <p class="cap">Narrative shocks imply larger and more persistent output effects than CAPB or forecast-error approaches.</p>
-  <a class="open"
-     href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_8_narrshock_vs_CAPB_vs_consumptionFE.pdf"
-     target="_blank" rel="noopener">Open figure (PDF) →</a>
+<figure class="fig-card" style="max-width:850px;">
+  <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_8_narrshock_vs_CAPB_vs_consumptionFE.png"
+       alt="Narrative shocks vs. CAPB vs. forecast-error identification">
+  <figcaption>Narrative shocks imply larger and more persistent output effects than CAPB or forecast-error approaches.</figcaption>
+  <a class="pdf"
+     href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_8_narrshock_vs_CAPB_vs_consumptionFE.pdf">
+    Download PDF
+  </a>
 </figure>
 
 ## Dataset coverage
@@ -125,12 +133,14 @@ The replication dataset covers 16 Sub‑Saharan African countries from 1990
 onwards. The timeline below summarises the narrative fiscal consolidation
 episodes identified for each country.
 
-<figure class="fig-card" style="max-width:46rem;">
-  <h4>Timeline of narrative fiscal consolidation episodes</h4>
-  <p class="cap">Timeline of narrative fiscal consolidation episodes by country.</p>
-  <a class="open"
-     href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_4_timeline_episodes.pdf"
-     target="_blank" rel="noopener">Open figure (PDF) →</a>
+<figure class="fig-card" style="max-width:850px;">
+  <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_4_timeline_episodes.png"
+       alt="Timeline of narrative fiscal consolidation episodes by country">
+  <figcaption>Timeline of narrative fiscal consolidation episodes by country.</figcaption>
+  <a class="pdf"
+     href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_4_timeline_episodes.pdf">
+    Download PDF
+  </a>
 </figure>
 
 <details>
@@ -162,19 +172,23 @@ episodes identified for each country.
 <div class="fig-grid cols-2">
 
   <figure class="fig-card">
-    <h4>Composition matters</h4>
-    <p class="cap">Spending-based consolidations are more contractionary than tax-based consolidations.</p>
-    <a class="open"
-       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_10_tax_spend_fc.pdf"
-       target="_blank" rel="noopener">Open figure (PDF) →</a>
+    <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_10_tax_spend_fc.png"
+         alt="Tax-based vs. spending-based fiscal consolidation">
+    <figcaption>Spending-based consolidations are more contractionary than tax-based consolidations.</figcaption>
+    <a class="pdf"
+       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_10_tax_spend_fc.pdf">
+      Download PDF
+    </a>
   </figure>
 
   <figure class="fig-card">
-    <h4>Timing matters</h4>
-    <p class="cap">Output effects differ across booms and slumps.</p>
-    <a class="open"
-       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_11_gdp_fc_nonlin_OG.pdf"
-       target="_blank" rel="noopener">Open figure (PDF) →</a>
+    <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_11_gdp_fc_nonlin_OG.png"
+         alt="Output effects of fiscal consolidation across booms and slumps">
+    <figcaption>Output effects differ across booms and slumps.</figcaption>
+    <a class="pdf"
+       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_11_gdp_fc_nonlin_OG.pdf">
+      Download PDF
+    </a>
   </figure>
 
 </div>
@@ -184,50 +198,60 @@ episodes identified for each country.
 Fiscal consolidation affects imports, exports, the current account balance,
 and the real effective exchange rate.
 
-<div class="fig-grid cols-4">
+<div class="fig-grid cols-2x2">
 
   <figure class="fig-card">
-    <h4>Imports</h4>
-    <p class="cap">Response of imports (BoP) to a fiscal consolidation.</p>
-    <a class="open"
-       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_9_imports_BoP_fc.pdf"
-       target="_blank" rel="noopener">Open figure (PDF) →</a>
+    <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_9_imports_BoP_fc.png"
+         alt="Response of imports (BoP) to a fiscal consolidation">
+    <figcaption>Imports (BoP).</figcaption>
+    <a class="pdf"
+       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_9_imports_BoP_fc.pdf">
+      Download PDF
+    </a>
   </figure>
 
   <figure class="fig-card">
-    <h4>Exports</h4>
-    <p class="cap">Response of exports (BoP) to a fiscal consolidation.</p>
-    <a class="open"
-       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_9_exports_BoP_fc.pdf"
-       target="_blank" rel="noopener">Open figure (PDF) →</a>
+    <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_9_exports_BoP_fc.png"
+         alt="Response of exports (BoP) to a fiscal consolidation">
+    <figcaption>Exports (BoP).</figcaption>
+    <a class="pdf"
+       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_9_exports_BoP_fc.pdf">
+      Download PDF
+    </a>
   </figure>
 
   <figure class="fig-card">
-    <h4>Current account</h4>
-    <p class="cap">Response of the current account balance (share of GDP).</p>
-    <a class="open"
-       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_9_CABshare_BoP_fc.pdf"
-       target="_blank" rel="noopener">Open figure (PDF) →</a>
+    <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_9_CABshare_BoP_fc.png"
+         alt="Response of the current account balance (share of GDP)">
+    <figcaption>Current account balance (share of GDP).</figcaption>
+    <a class="pdf"
+       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_9_CABshare_BoP_fc.pdf">
+      Download PDF
+    </a>
   </figure>
 
   <figure class="fig-card">
-    <h4>Real effective exchange rate</h4>
-    <p class="cap">Response of the REER to a fiscal consolidation.</p>
-    <a class="open"
-       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_9_REER_fc.pdf"
-       target="_blank" rel="noopener">Open figure (PDF) →</a>
+    <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_9_REER_fc.png"
+         alt="Response of the real effective exchange rate">
+    <figcaption>Real effective exchange rate.</figcaption>
+    <a class="pdf"
+       href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_9_REER_fc.pdf">
+      Download PDF
+    </a>
   </figure>
 
 </div>
 
 ## External financing conditions matter
 
-<figure class="fig-card" style="max-width:46rem;">
-  <h4>Output effects under different ODA conditions</h4>
-  <p class="cap">Output effects of fiscal consolidation differ with external financing conditions.</p>
-  <a class="open"
-     href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_12_gdp_fc_nonlin_ODA.pdf"
-     target="_blank" rel="noopener">Open figure (PDF) →</a>
+<figure class="fig-card" style="max-width:850px;">
+  <img src="https://raw.githubusercontent.com/Hanomics/fiscal_narrative_dataset/main/figs/fig_12_gdp_fc_nonlin_ODA.png"
+       alt="Output effects of fiscal consolidation under different ODA conditions">
+  <figcaption>Output effects of fiscal consolidation differ with external financing conditions.</figcaption>
+  <a class="pdf"
+     href="https://github.com/Hanomics/fiscal_narrative_dataset/raw/main/figs/fig_12_gdp_fc_nonlin_ODA.pdf">
+    Download PDF
+  </a>
 </figure>
 
 ## Associated papers <a id="associated-papers"></a>
