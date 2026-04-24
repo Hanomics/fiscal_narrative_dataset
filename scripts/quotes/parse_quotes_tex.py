@@ -232,6 +232,19 @@ def strip_tex(text: str) -> str:
     t = t.replace("\\_", "_")
     t = t.replace("~", " ")
 
+    # Drop TeX hard line breaks ("\\") -- the surrounding newline is kept.
+    t = re.sub(r"\\\\", "", t)
+
+    # TeX dashes: --- -> em dash, -- -> en dash (not inside hyphenated words).
+    t = re.sub(r"(?<!-)---(?!-)", "—", t)
+    t = re.sub(r"(?<![\w-])--(?![\w-])", "–", t)
+
+    # TeX quote markers -> Unicode curly quotes (if any slipped through).
+    t = t.replace("``", "“").replace("''", "”")
+
+    # Strip any empty { } groups left over.
+    t = re.sub(r"\{\s*\}", "", t)
+
     # Collapse whitespace inside paragraphs; preserve paragraph breaks.
     paragraphs = [re.sub(r"[ \t]+", " ", p).strip() for p in re.split(r"\n\s*\n", t)]
     paragraphs = [p for p in paragraphs if p]

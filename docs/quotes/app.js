@@ -92,13 +92,37 @@ function renderCard(d){
   const page = d.page ? `, ${escapeHtml(d.page)}` : '';
   return `<article class="card">
     <div class="meta"><b>${escapeHtml(d.country)}</b> • ${d.year ?? '—'} • ${(d.action_type||'UNSPEC').toUpperCase()}${size}</div>
-    <div class="quote">“${escapeHtml(d.quote)}”</div>
+    <div class="quote">“${escapeHtml(cleanTex(d.quote))}”</div>
     <div class="badges">
       ${d.included === true ? '<span class="badge">Included ✓</span>' : (d.included === false ? '<span class="badge">Excluded</span>' : '')}
       ${tags}
     </div>
     <div class="meta">Source: ${escapeHtml(srcTitle)}${report}${page}</div>
   </article>`;
+}
+
+// Safety-net TeX cleanup for any residue that slips past the parser.
+function cleanTex(s){
+  if (s == null) return '';
+  let t = String(s);
+  // Drop \textbf{...}, \emph{...}, \textit{...}, \underline{...}, \text{...} wrappers (single level).
+  t = t.replace(/\\(?:textbf|emph|textit|underline|text)\{([^{}]*)\}/g, '$1');
+  // Drop \footnote{...}, \citep{...}, \citet{...}, \cite{...} entirely.
+  t = t.replace(/\\(?:footnote|citep|citet|cite)\{[^{}]*\}/g, '');
+  // Drop \protect and bare \footnotemark / \footnotetext.
+  t = t.replace(/\\(?:protect|footnotemark|footnotetext)\b/g, '');
+  // TeX hard line breaks.
+  t = t.replace(/\\\\/g, '');
+  // TeX dashes.
+  t = t.replace(/(?<!-)---(?!-)/g, '—');
+  t = t.replace(/(?<![\w-])--(?![\w-])/g, '–');
+  // TeX quote markers.
+  t = t.replace(/``/g, '“').replace(/''/g, '”');
+  // TeX-escaped characters.
+  t = t.replace(/\\([$%&#_])/g, '$1');
+  // Empty braces.
+  t = t.replace(/\{\s*\}/g, '');
+  return t;
 }
 
 function summarySuffix(st){
